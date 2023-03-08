@@ -1,0 +1,25 @@
+
+.container .col-md-6 img {
+  margin-top: 120px;
+  margin-bottom: 80px;
+  border-radius: 3%;
+}
+
+.sobre-mi {
+
+  font-family: "Texturina", serif;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 22px;
+}
+
+@media (max-width: 880px) {
+  .container .col-md-6 img {
+    margin-bottom: 80px;
+  }
+
+  .sobre-mi p {
+    font-size: 20px;
+  }
+}
